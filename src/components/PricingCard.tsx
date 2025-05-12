@@ -21,7 +21,7 @@ function PricingCard({
   mainFeatures,
   additionalFeatures,
   buttonText = "Get started",
-  isPopular = false,
+  // isPopular = false,
 }: PricingCardProps) {
   return (
     <div className="bg-white hover:bg-[#3353F9] hover:text-white cursor-pointer transition-all shadow-md p-[40px] rounded-[20px] group">
