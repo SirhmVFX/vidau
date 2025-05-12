@@ -65,20 +65,20 @@ function FeatureSection5() {
         {
             id:2,
             icon: "/assets/ic2.png",
-            title: "Save money",
-            desc: "No need to pay for multiple subscriptions."
+            title: "One account for everything",
+            desc: "Access all of your video creation tools from one place."
         },
         {
             id:3,
             icon: "/assets/ic3.png",
-            title: "Save money",
-            desc: "No need to pay for multiple subscriptions."
+            title: "No need to learn different tools",
+            desc: "AI-powered video ad creation - no editing skills required."
         },
         {
             id:4,
             icon: "/assets/ic4.png",
-            title: "Save money",
-            desc: "No need to pay for multiple subscriptions."
+            title: "No integration headaches",
+            desc: "No more wasted time trying to string together lots of tools."
         }
     ]
   return (
@@ -131,19 +131,19 @@ function FeatureSection5() {
             </div>
         </div>
 
-        <div className="w-[60%] flex flex-col gap-8 mx-auto">
+        <div className="md:w-[60%] flex flex-col gap-8 mx-auto">
             <div>
-                <h1 className="text-[40px] text-center font-semibold leading-[44px]"><span className="text-[#3353F9]">All-in-One:</span> <br />
+                <h1 className="md:text-[40px] text-[26px]  text-center font-semibold md:leading-[44px] leading-[30px]"><span className="text-[#3353F9]">All-in-One:</span> <br />
                 Simple. Smart. AI Video Ad Agent</h1>
             </div>
 
             <div className="flex flex-col gap-4">
                 {feat.map((feat) => (
-                    <div key={feat.id} className="p-[30px] bg-white rounded-[30px] border border-[#3353F9] flex items-center gap-8 ">
-                        <Image src={feat.icon} alt={feat.title} width={1000} height={1000} className="w-[40px]" />
+                    <div key={feat.id} className="md:p-[30px] p-[20px] bg-white rounded-[30px] border border-[#3353F9] flex items-center md:gap-8 gap-4 ">
+                        <Image src={feat.icon} alt={feat.title} width={1000} height={1000} className="md:w-[40px] w-[20px]" />
                         <div>
-                            <h1 className="text-[20px] text-[#3353F9] font-semibold">{feat.title}</h1>
-                            <p className="text-[#444444]">{feat.desc}</p>
+                            <h1 className="md:text-[20px] text-[16px] text-[#3353F9] font-semibold">{feat.title}</h1>
+                            <p className="text-[#444444] md:text-base text-[10px]">{feat.desc}</p>
                         </div>
                     </div>
                 ))}

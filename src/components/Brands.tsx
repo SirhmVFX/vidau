@@ -35,16 +35,16 @@ function Brands() {
     ]
     return (
         <>
-        <div className="flex flex-col gap-7 bg-[#fcfcfc] items-center py-[100px]">
+        <div className="flex flex-col gap-7 bg-[#fcfcfc] items-center py-[100px] md:px-0 px-6">
             <h1>Trusted by <span>10,000+</span>Brands and advertisers</h1>
-            <div className="flex items-center gap-4 h-10">
+            <div className="flex items-center justify-between md:flex-nowrap flex-wrap gap-4 md:h-10">
                 {brands.slice(0,17).map((br) => (
-                    <Image key={br.id} src={br.brand} width={1000} height={1000} alt="brand" className="h-6 w-fit" />
+                    <Image key={br.id} src={br.brand} width={1000} height={1000} alt="brand" className="md:h-6 h-4 w-auto" />
                 ))}
             </div>
-            <div className="flex items-center gap-4 h-10">
+            <div className="flex items-center justify-between md:flex-nowrap flex-wrap gap-4 md:h-10">
                 {brands.slice(17,30).map((br) => (
-                    <Image key={br.id} src={br.brand} width={1000} height={1000} alt="brand" className="h-10 w-fit" />
+                    <Image key={br.id} src={br.brand} width={1000} height={1000} alt="brand" className="md:h-6 h-4 w-auto" />
                 ))}
             </div>
         </div>

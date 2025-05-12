@@ -39,7 +39,7 @@ function PricingSection() {
 
   return (
     <>
-      <div className="bg-[#fcfcfc] p-[100px] flex flex-col items-center gap-8">
+      <div className="bg-[#fcfcfc] p-[100px] md:flex flex-col items-center gap-8 hidden">
         <h1 className="text-center text-[36px]">
           The quickest way to start a successful video promo
         </h1>
