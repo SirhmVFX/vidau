@@ -66,12 +66,7 @@ function PricingSection() {
         { text: "Customer Success Manager" },
         { text: "Fastest Generation Speed" },
       ],
-      additionalFeatures: [
-        { text: "API access" },
-        { text: "Commercial music library" },
-        { text: "Premium stock footage" },
-        { text: "Faster video processing speed" },
-      ],
+
       isPopular: true,
     },
     // Add more plans as needed

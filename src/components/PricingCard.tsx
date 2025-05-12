@@ -9,7 +9,7 @@ interface PricingCardProps {
   price: string;
   period: string;
   mainFeatures: Feature[];
-  additionalFeatures: Feature[];
+  additionalFeatures?: Feature[];
   buttonText?: string;
   isPopular?: boolean;
 }
@@ -54,7 +54,7 @@ function PricingCard({
           <h1 className="text-sm font-semibold group-hover:text-white">
             Main Features
           </h1>
-          {additionalFeatures.map((feature, index) => (
+          {additionalFeatures?.map((feature, index) => (
             <div key={index} className="flex items-center gap-2">
               <FaCheckCircle className="text-[#3353f9]/50 group-hover:text-white/50" />
               <p className="text-xs font-semibold text-[#3353f9] group-hover:text-white">
