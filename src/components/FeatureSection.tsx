@@ -15,7 +15,7 @@ function FeatureSection() {
         <div className="w-full md:h-[80vh] h-screen p-[20px] flex flex-col gap-4 items-center justify-center bg-[#fcfcfc]">
             <h1 className="md:text-[40px] text-[30px] md:leading-[45px] leading-[30px]">Create Winning Video Ads with VidAU AI Agent</h1>
             <p>Create engaging video ads for product promotion with VidAU AI video generator.</p>
-            <div className="flex items-center justify-center gap-8 h-[300px]">
+            <div className="flex items-center justify-center gap-8 h-[300px] md:overflow-hidden overflow-x-scroll">
                 {featureImage.map((item) => (
                     <Image key={item.id} src={item.image} width={10000} height={10000} alt="feature" className="w-full h-full" />
                 ))}
