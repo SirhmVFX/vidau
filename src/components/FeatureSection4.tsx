@@ -30,13 +30,13 @@ function FeatureSection4() {
   ];
   return (
     <>
-      <div className="bg-linear-180 from-[#3459FF] to-[#6A3BFF] p-[100px] space-y-6 flex flex-col items-center">
+      <div className="bg-linear-180 from-[#3459FF] to-[#6A3BFF] md:p-[100px] px-6 py-[70px] space-y-6 flex flex-col items-center">
         <p className="text-white text-[24px] font-semibold ">
           The Smartest Video Ad AI Agent for Video Marketing
         </p>
-        <div className="flex gap-4 items-center">
+        <div className="flex md:flex-row flex-col gap-4 items-center">
           <div className="bg-white rounded-[20px] flex items-center">
-            <div className="px-[40px] w-[70%]">
+            <div className="md:px-[40px] md:w-[70%] md:py-[0px] py-[20px] px-[20px]">
               <h1 className="text-[16px] font-semibold text-[#3459FF]">
                 AI Video Ads
               </h1>
@@ -47,7 +47,7 @@ function FeatureSection4() {
               </p>
             </div>
 
-            <div className="h-[200px]">
+            <div className="h-[200px] md:block hidden">
               <Image
                 src="/assets/ft1.png"
                 alt="feature-4-1"
@@ -58,7 +58,7 @@ function FeatureSection4() {
             </div>
           </div>
           <div className="bg-white rounded-[20px] flex items-center">
-            <div className="px-[40px] w-[70%]">
+            <div className="md:px-[40px] md:w-[70%] md:py-[0px] py-[20px] px-[20px]">
               <h1 className="text-[16px] font-semibold text-[#3459FF]">
                 AI UGC Creator 
               </h1>
@@ -68,7 +68,7 @@ function FeatureSection4() {
               </p>
             </div>
 
-            <div className="h-[200px]">
+            <div className="h-[200px] md:block hidden">
               <Image
                 src="/assets/ft2.png"
                 alt="feature-4-1"
@@ -80,11 +80,11 @@ function FeatureSection4() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid md:grid-cols-4 gap-4">
           {features.map((feature) => (
             <div
               key={feature.id}
-              className="bg-white p-[40px] rounded-[20px] flex flex-col gap-2"
+              className="bg-white md:p-[40px] p-[20px] rounded-[20px] flex flex-col gap-2"
             >
               <h1 className="text-[16px] font-semibold text-[#3459FF]">
                 {feature.title}

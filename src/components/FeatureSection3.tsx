@@ -4,7 +4,7 @@ import ArrowButton from "./ArrowButton";
 function FeatureSection3() {
   return (
     <>
-      <div className=" p-[100px]  flex flex-col items-center gap-10 bg-[#fcfcfc] ">
+      <div className="hidden p-[100px]  md:flex flex-col items-center gap-10 bg-[#fcfcfc] ">
        <div className="flex gap-20">
        <div className="bg-[#FFD8E41F] p-[50px] rounded-[20px] flex flex-col gap-6">
           <div className="w-[100px] h-[100px]">
