@@ -72,7 +72,7 @@ function Header() {
       </div>
 
       {/* Mobile Sidebar */}
-      <div className={`fixed top-0 right-0 h-full w-[280px] bg-white shadow-lg transform transition-transform duration-300 ease-in-out z-[60] ${isSidebarOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+      <div className={`fixed top-0 right-0 h-full w-[280px] bg-white shadow-lg transform transition-transform duration-300 ease-in-out z-[999999] ${isSidebarOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="p-4">
           <div className="flex justify-between items-center mb-8">
             <Image
