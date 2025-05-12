@@ -49,7 +49,7 @@ const testimonials = [
     role: "Startup Founder",
     company: "NextGen",
     content: "As a startup, VidAU helps us compete with bigger brands by creating professional-looking video ads.",
-    image: "/assets/6.png"
+    image: "/assets/"
   }
 ];
 

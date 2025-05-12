@@ -36,7 +36,7 @@ function PricingCard({
         <p className="text-sm text-[#3353F9] group-hover:text-white">{period}</p>
       </div>
 
-      <button className="py-3 w-full text-white shadow-sm shadow-[#3353F9] rounded-[20px] bg-[#3353F9] group-hover:bg-white group-hover:text-[#3353F9]">
+      <button className="py-3 w-full text-white shadow-sm shadow-[#3353F9] rounded-[20px] bg-[#3353F9] group-hover:bg-linear-90 from-[#F68B2E] to-[#F6BB5C] group-hover:text-[#fff]">
         {buttonText}
       </button>
 

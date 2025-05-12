@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <>
-      <div className="fixed z-50 w-full bg-white flex md:justify-center justify-between items-center md:py-6 p-4 md:gap-[80px] gap-2">
+      <div className="fixed z-[99999] w-full bg-white flex md:justify-center justify-between items-center md:py-6 p-4 md:gap-[80px] gap-2">
         <Image
           src={"/assets/logo.png"}
           width={1000}
