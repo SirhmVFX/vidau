@@ -12,8 +12,8 @@ function FeatureSection() {
     ]
     return(
         <>
-        <div className="w-full h-[80vh] p-[20px] flex flex-col gap-4 items-center justify-center bg-[#fcfcfc]">
-            <h1 className="text-[40px]">Create Winning Video Ads with VidAU AI Agent</h1>
+        <div className="w-full md:h-[80vh] h-screen p-[20px] flex flex-col gap-4 items-center justify-center bg-[#fcfcfc]">
+            <h1 className="md:text-[40px] text-[30px] md:leading-[45px] leading-[30px]">Create Winning Video Ads with VidAU AI Agent</h1>
             <p>Create engaging video ads for product promotion with VidAU AI video generator.</p>
             <div className="flex items-center justify-center gap-8 h-[300px]">
                 {featureImage.map((item) => (

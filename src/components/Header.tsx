@@ -2,17 +2,18 @@ import Image from "next/image";
 import SelectComponent from "./SelectComponent";
 import Link from "next/link";
 import Button from "./Button";
+import { IoIosMenu } from "react-icons/io";
 
 function Header() {
   return (
     <>
-      <div className="fixed z-50 w-full bg-white flex justify-center items-center py-6 gap-[80px]">
+      <div className="fixed z-50 w-full bg-white flex md:justify-center justify-between items-center md:py-6 p-4 md:gap-[80px] gap-2">
         <Image
           src={"/assets/logo.png"}
           width={1000}
           height={1000}
           alt="logo"
-          className="w-[100px]"
+          className="md:w-[100px] w-[50px]"
         />
         <div className="md:flex gap-4 items-center hidden">
           <SelectComponent
@@ -58,6 +59,8 @@ function Header() {
           <Button variant="fill" size="sm">
             Get Started for free
           </Button>
+
+          <IoIosMenu className="text-[#3353F9] text-lg cursor-pointer md:hidden "  />
         </div>
       </div>
     </>
