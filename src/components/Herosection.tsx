@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { IoIosMore } from "react-icons/io";
 import ArrowButton from "./ArrowButton";
-import { FaLink } from "react-icons/fa6";
+import { Link } from "./Icons";
 
 function Herosection() {
   const supportedPlatforms = [
@@ -63,9 +63,9 @@ function Herosection() {
             Generate high-converting  video ad creatives  in minutes, no editing
             skills needed.
           </p>
-          <div className="bg-white rounded-full p-2 flex items-center md:w-[60%] w-full justify-between">
+          <div className="bg-white rounded-full p-2 pl-3 flex items-center md:w-[60%] w-full justify-between">
             <div className="flex items-center gap-2 w-[65%]">
-              <FaLink />
+             <Link />
               <input
                 type="text"
                 placeholder="Youtube/Amazon/Shopify/Tiktok/Eb...."

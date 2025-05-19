@@ -1,7 +1,6 @@
 "use client"
-
-import { FaArrowRight } from "react-icons/fa";
 import { ButtonHTMLAttributes } from "react";
+import { ButtonArrow } from "./Icons";
 
 interface ArrowButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
@@ -17,13 +16,13 @@ function ArrowButton({
 }: ArrowButtonProps) {
   return (
     <button 
-      className={`${bgColor} p-2 rounded-full text-[10px] flex items-center gap-1 text-white ${className}`}
+      className={`${bgColor} p-2 pl-3 rounded-full text-[10px] flex items-center gap-1 text-white ${className}`}
       style={{ backgroundColor: bgColor }}
       {...props}
     >
       {text}
       <span className="bg-white p-1 rounded-full">
-        <FaArrowRight className="text-[10px] text-black" />
+       <ButtonArrow />
       </span>
     </button>
   );
