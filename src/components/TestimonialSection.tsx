@@ -78,7 +78,7 @@ function TestimonialSection() {
             }
           }
         }
-      }, 20 + (index * 10)); // Slightly different speeds for each column
+      }, 5 + (index * 10)); // Slightly different speeds for each column
     });
 
     return () => intervals.forEach(interval => clearInterval(interval));

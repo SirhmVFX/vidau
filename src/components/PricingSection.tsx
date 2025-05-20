@@ -36,7 +36,7 @@ function PricingSection() {
       isPopular: false,
     },
     {
-      plan: "Busines",
+      plan: "Business",
       price: "$45",
       period: "/month",
       mainFeatures: [
@@ -51,10 +51,11 @@ function PricingSection() {
         { text: "Faster video processing speed" },
       ],
       isPopular: true,
+      promo: true,
     },
 
     {
-      plan: "Busines",
+      plan: "Business",
       price: "$45",
       period: "/month",
       mainFeatures: [
@@ -68,6 +69,7 @@ function PricingSection() {
       ],
 
       isPopular: false,
+      promo: true,
     },
 
     // Add more plans as needed
