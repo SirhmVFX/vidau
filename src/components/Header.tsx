@@ -27,7 +27,6 @@ function Header() {
             ]}
             label="Features"
             name="mySelect"
-            active={true}
           />
 
           <SelectComponent
@@ -48,10 +47,10 @@ function Header() {
             name="mySelect"
           />
 
-          <Link href={"#"} className="text-[#3353F9] text-xs">
+          <Link href={"#"} className="text-[#3353F9] text-xs font-bold">
             Pricing
           </Link>
-          <Link href={"#"} className="text-[#3353F9] text-xs">
+          <Link href={"#"} className="text-[#3353F9] text-xs font-bold">
             API
           </Link>
         </div>

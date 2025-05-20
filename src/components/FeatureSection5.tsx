@@ -131,7 +131,7 @@ function FeatureSection5() {
             </div>
         </div>
 
-        <div className="md:w-[60%] flex flex-col gap-8 mx-auto">
+        <div className="md:w-[80%] flex flex-col gap-8 mx-auto">
             <div>
                 <h1 className="md:text-[40px] text-[26px]  text-center font-semibold md:leading-[44px] leading-[30px]"><span className="text-[#3353F9]">All-in-One:</span> <br />
                 Simple. Smart. AI Video Ad Agent</h1>
@@ -139,7 +139,7 @@ function FeatureSection5() {
 
             <div className="flex flex-col gap-4">
                 {feat.map((feat) => (
-                    <div key={feat.id} className="md:p-[30px] p-[20px] bg-white rounded-[30px] border border-[#3353F9] flex items-center md:gap-8 gap-4 ">
+                    <div key={feat.id} className="md:p-[30px] p-[20px] bg-white rounded-[30px] border-[0.5px] border-[#3353F9] flex items-center md:gap-8 gap-4 ">
                         <Image src={feat.icon} alt={feat.title} width={1000} height={1000} className="md:w-[40px] w-[20px]" />
                         <div>
                             <h1 className="md:text-[20px] text-[16px] text-[#3353F9] font-semibold">{feat.title}</h1>

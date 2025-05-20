@@ -1,5 +1,7 @@
 "use client"
 
+import { ArrowDown } from "./Icons";
+
 interface Option {
   value: string;
   label: string;
@@ -15,23 +17,15 @@ interface SelectProps {
   active?: boolean;
 }
 
-function SelectComponent({ options, label, value, onChange, name, className = '', active = false }: SelectProps) {
+function SelectComponent({ label}: SelectProps) {
   return (
-    <div className="flex flex-col gap-2">
-      <select
-        name={name}
-        value={value}
-        onChange={(e) => onChange?.(e.target.value)}
-        className={`w-full p-2 border-none rounded-sm text-[12px] ${className} ${active ? 'bg-[#3353F9] text-white pr-2' : 'text-[#3353F9]'} `}
+    
+      <div
+        className={`flex items-center justify-between w-full p-2 border-none rounded-sm text-[12px] hover:bg-[#3353F9] hover:text-white  text-[#3353F9] cursor-pointer `}
       >
-        <option value="">{label}</option>
-        {options.map((option) => (
-          <option key={option.value} value={option.value} className="text-[6px]">
-            {option.label}
-          </option>
-        ))}
-      </select>
-    </div>
+        <p className="text-[12px] font-bold" >{label}</p>
+       <ArrowDown hover={false} />
+      </div>
   );
 }
 

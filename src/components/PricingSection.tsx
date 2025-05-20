@@ -33,7 +33,7 @@ function PricingSection() {
         { text: "P9:16, 16:9, and 1:1 aspect ratios" },
         { text: "Faster Generation Speed" },
       ],
-      isPopular: true,
+      isPopular: false,
     },
     {
       plan: "Busines",
@@ -67,8 +67,9 @@ function PricingSection() {
         { text: "Fastest Generation Speed" },
       ],
 
-      isPopular: true,
+      isPopular: false,
     },
+
     // Add more plans as needed
   ];
 

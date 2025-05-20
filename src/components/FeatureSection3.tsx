@@ -17,16 +17,16 @@ function FeatureSection3() {
             />
           </div>
 
-          <h1 className="text-[38px] leading-[44px] font-semibold">
+          <h1 className="text-[45px] leading-[50px] font-semibold">
             The Challenge of Traditional Video Ad Creation 
           </h1>
           <div className="flex flex-col gap-4">
-            <p className="text-[12px]">
+            <p className="text-[16px]">
               <span className="text-[#3459FF] font-semibold ">High Cost</span> -
               High expenses for production, creative talent, research, and
               distribution, which may cost $200-300 per video.
             </p>
-            <p className="text-[12px]">
+            <p className="text-[16px]">
               <span className="text-[#3459FF] font-semibold ">
                 Time Consuming
               </span>{" "}
@@ -34,7 +34,7 @@ function FeatureSection3() {
               lengthy process makes it difficult to respond quickly to market
               trends.  
             </p>
-            <p className="text-[12px]">
+            <p className="text-[16px]">
               <span className="text-[#3459FF] font-semibold ">
                 Scalability Issues
               </span>{" "}
@@ -55,21 +55,21 @@ function FeatureSection3() {
             />
           </div>
 
-          <h1 className="text-[36px] leading-[44px] font-semibold">
+          <h1 className="text-[45px] leading-[50px] font-semibold">
           The Solution? VidAU AI Video Ad Maker!
           </h1>
           <div className="flex flex-col gap-4">
-            <p className="text-[12px]">
+            <p className="text-[16px]">
               <span className="text-[#3459FF] font-semibold ">Cost Efficiency</span> -
               Reduce production costs by eliminating the need for full production teams and expensive equipment, resulting in $1-2 per video.
             </p>
-            <p className="text-[12px]">
+            <p className="text-[16px]">
               <span className="text-[#3459FF] font-semibold ">
                 Time Efficiency
               </span>{" "}
               – Produce videos in minutes, no waiting, no hassle, 90% faster production, allowing brands to quickly respond to market trends.
             </p>
-            <p className="text-[12px]">
+            <p className="text-[16px]">
               <span className="text-[#3459FF] font-semibold ">
                 Scalability 
               </span>{" "}

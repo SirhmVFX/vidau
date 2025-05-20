@@ -63,13 +63,13 @@ function Herosection() {
             Generate high-converting  video ad creatives  in minutes, no editing
             skills needed.
           </p>
-          <div className="bg-white rounded-full p-2 pl-3 flex items-center md:w-[60%] w-full justify-between">
+          <div className="bg-white rounded-full p-2 pl-3 flex items-center md:w-[80%] w-full justify-between">
             <div className="flex items-center gap-2 w-[65%]">
              <Link />
               <input
                 type="text"
                 placeholder="Youtube/Amazon/Shopify/Tiktok/Eb...."
-                className="border-none w-full outline-none text-[12px] bg-transparent"
+                className="border-none w-full outline-none text-[16px] bg-transparent"
               />
             </div>
 
@@ -77,6 +77,7 @@ function Herosection() {
             <ArrowButton
               text="Generate your first ad for free"
               bgColor="#3459FF"
+            
             />
             </div>
 

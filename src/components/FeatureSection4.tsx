@@ -37,10 +37,10 @@ function FeatureSection4() {
         <div className="flex md:flex-row flex-col gap-4 items-center">
           <div className="bg-white rounded-[20px] flex items-center">
             <div className="md:px-[40px] md:w-[70%] md:py-[0px] py-[20px] px-[20px]">
-              <h1 className="text-[16px] font-semibold text-[#3459FF]">
+              <h1 className="text-[18px] font-semibold text-[#3459FF]">
                 AI Video Ads
               </h1>
-              <p className="text-[12px] text-[#444]">
+              <p className="text-[16px] text-[#444]">
                 Generate winning video ads with VidAU AI video admaker to
                 showcase your products&apos; unique selling points to the target
                 audience.
@@ -59,10 +59,10 @@ function FeatureSection4() {
           </div>
           <div className="bg-white rounded-[20px] flex items-center">
             <div className="md:px-[40px] md:w-[70%] md:py-[0px] py-[20px] px-[20px]">
-              <h1 className="text-[16px] font-semibold text-[#3459FF]">
+              <h1 className="text-[18px] font-semibold text-[#3459FF]">
                 AI UGC Creator 
               </h1>
-              <p className="text-[12px] text-[#444]">
+              <p className="text-[16px] text-[#444]">
                 Leverage the well-trained UGC scripts writer using GPT-4o to
                 craft viral video scripts designed to drive conversions.
               </p>
@@ -86,10 +86,10 @@ function FeatureSection4() {
               key={feature.id}
               className="bg-white md:p-[40px] p-[20px] rounded-[20px] flex flex-col gap-2"
             >
-              <h1 className="text-[16px] font-semibold text-[#3459FF]">
+              <h1 className="text-[18px] font-semibold text-[#3459FF]">
                 {feature.title}
               </h1>
-              <p className="text-[12px] text-[#444]">{feature.description}</p>
+              <p className="text-[16px] text-[#444]">{feature.description}</p>
             </div>
           ))}
         </div>

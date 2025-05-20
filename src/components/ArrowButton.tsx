@@ -16,7 +16,7 @@ function ArrowButton({
 }: ArrowButtonProps) {
   return (
     <button 
-      className={`${bgColor} p-2 pl-3 rounded-full text-[10px] flex items-center gap-1 text-white ${className}`}
+      className={`${bgColor} p-2 pl-4 font-bold rounded-full text-[14px] flex items-center gap-1 text-white ${className}`}
       style={{ backgroundColor: bgColor }}
       {...props}
     >
